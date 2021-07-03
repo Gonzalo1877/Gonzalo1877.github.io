@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b01a25fd19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio - Gonzalo Iribarren</title>
+</head>
+<body>
+    
+ <div class="contenedor">
+    <header>
+        <div class="logo">
+            <h1>Gonzalo Iribarren</h1>
+            <p>Bienvenido a mi Portafolio</p>
+        </div>
+        <form action="">
+            <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar"> 
+        </form>
+        <div class="categorias" id="categorias">
+            <a href="#" class="activo">Todos</a>
+            <a href="#">Proyectos del taller</a>
+            <a href="#">Ciudades y paisajes</a>
+            <a href="#">Animales y personas</a>
+        </div>
+    </header>
+
+    <section class="grid" id="grid">
+        <div class="item" 
+        data-categoria="ciudades y paisajes" 
+        data-etiquetas="ciudades autos carros calles nueva york mundo belleza vida soñad"
+        data-descripcion="1.-Lorem ipsum dolor sit amet consectetur" 
+        >
+
+
+            <div class="item-contenido activo">
+                <img src="img/ciudad1.png" alt="">
+            </div>
+        </div>
+
+        <div class="item" 
+        data-categoria="animales y personas" 
+        data-etiquetas="personas mujeres"
+        data-descripcion="2.-Lorem ipsum dolor sit amet consectetur" 
+        >
+
+
+            <div class="item-contenido">
+                <img src="img/persona1.png" alt="">
+            </div>
+        </div>
+
+        <div class="item" 
+        data-categoria="animales y personas" 
+        data-etiquetas="animal leon salvaje peligroso bonito lindo carnivoro"
+        data-descripcion="3.-Lorem ipsum dolor sit amet consectetur" 
+        >
+
+
+            <div class="item-contenido">
+                <img src="img/animal1.png" alt="">
+            </div>
+        </div>
+
+        <div class="item" 
+        data-categoria="ciudades y paisajes" 
+        data-etiquetas="paisaje agua tranquilidad lindo transparente paz cascada libertad"
+        data-descripcion="4.-Lorem ipsum dolor sit amet consectetur" 
+        >
+
+            <div class="item-contenido">
+                <img src="img/paisaje1.png" alt="">
+            </div>
+        </div>
+
+        <div class="item" 
+        data-categoria="animales y personas" 
+        data-etiquetas="animal panda torpe perezoso vegetariano"
+        data-descripcion="5.-Lorem ipsum dolor sit amet consectetur" 
+        >
+
+            <div class="item-contenido">
+                <img src="img/animal2.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="item" 
+        data-categoria="ciudades y paisajes" 
+        data-etiquetas="nueva york vida soñada ruidoso nieve lluvia autos edificios puentes"
+        data-descripcion="6.-Lorem ipsum dolor sit amet consectetur" 
+        >
+
+            <div class="item-contenido">
+                <img src="img/ciudad2.png" alt="">
+            </div>
+        </div>
+        
+        
+        <div class="item" 
+        data-categoria="ciudades y paisajes" 
+        data-etiquetas="vida comida plantas verde hojas"
+        data-descripcion="7.-Lorem ipsum dolor sit amet consectetur" 
+        >
+
+            <div class="item-contenido">
+                <img src="img/naturaleza1.png" alt="">
+            </div>
+        </div>
+
+        <div class="item" 
+        data-categoria="ciudades y paisajes" 
+        data-etiquetas="paisaje rocas tranquilidad paz libertad viajar agua mar oceano olas"
+        data-descripcion="8.-Lorem ipsum dolor sit amet consectetur" 
+        >
+
+            <div class="item-contenido">
+                <img src="img/paisaje2.png" alt="">
+            </div>
+        </div>
+
+        <div class="item" 
+        data-categoria="animales y personas" 
+        data-etiquetas="persona mujeres pelo rojizo azul"
+        data-descripcion="9.-Lorem ipsum dolor sit amet consectetur" 
+        >
+
+            <div class="item-contenido">
+                <img src="img/persona2.png" alt="">
+            </div>
+        </div>
+
+        <div class="item" 
+        data-categoria="proyectos del taller" 
+        data-etiquetas="taller escuela estudio trabajo proyectos personales"
+        data-descripcion="10.-Proyecto universidad con DJANGO" 
+        >
+
+            <div class="item-contenido">
+                <img src="img/taller1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="item" 
+        data-categoria="proyectos del taller" 
+        data-etiquetas="taller escuela estudio trabajo proyectos personales"
+        data-descripcion="11.-Parte del codigo del proyecto" 
+        >
+
+            <div class="item-contenido">
+                <img src="img/taller2.jpg" alt="">
+            </div>
+        </div>
+        
+        <div class="item" 
+        data-categoria="proyectos del taller" 
+        data-etiquetas="taller escuela estudio trabajo proyectos personales"
+        data-descripcion="12.-Parte del codigo del proyecto" 
+        >
+
+            <div class="item-contenido">
+                <img src="img/taller3.jpg" alt="">
+            </div>
+        </div>
+        <div class="item" 
+        data-categoria="proyectos del taller" 
+        data-etiquetas="taller escuela estudio trabajo proyectos personales"
+        data-descripcion="13.-Proyecto con CSS" 
+        >
+
+            <div class="item-contenido">
+                <img src="img/taller4.png" alt="">
+            </div>
+        </div>
+
+        
+    </section>
+
+    <section class="overlay" id="overlay">
+        <div class="contenedor-img">
+            <button id="btn-cerrar-popup"><i class="fas fa-times-circle"></i></button>
+            <img src="" alt="">
+        </div>
+        <p class="descripcion">  </p>
+    </section>
+
+    <footer class="contenedor"> 
+        <div class="redes-sociales">
+            <div class="contenedor-icono">
+                <a href="https://twitter.com/gonza_iribarren" target="_blank" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+
+            <div class="contenedor-icono">
+                <a href="https://www.instagram.com/gonza_ir/" target="_blank" class="instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            <div class="contenedor-icono">
+                <a href="https://www.facebook.com/gonzairibarrenn1231/" target="_blank" class="facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+        <div class="creador-por">
+            <p>Sitio diseñado por Gonzalo Iribarren</p>
+        </div>
+    </footer>
+ </div>
+
+ <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.4/dist/muuri.min.js"></script>
+ <script src="main.js"></script>
+</body>
+</html>
